@@ -1,4 +1,4 @@
-# PyBer_Analysis
+# Ride Share Analysis
 
 
 ## Overview of the analysis:
@@ -16,6 +16,10 @@ The sum of total fares for each city type calculated week over week for the peri
 Figure 1. Total Fares January Through April By City
 <img src="analysis/PyBer_fare_summary.png">
 
+A Look at total number of rides per city vs average provides more insights (Figure 2). Noting that circle size correlates to diver count per city, it appears that there is a correlation between city size and number of drivers. This trend also seems to correlate with lower average fares in Urban cities. However total fares still out pace the smaller cities likely due to diver counts and thus number of rides. 
+
+Figure 2. Total Number of Rides vs Average Fare
+<img src="analysis/Fig1.png">
 
 ## Summary:
 In summary, it appears that for January through April of 2019, the relative trends among city types were fairly consistent. Despite rural cities having roughly 1.4 times higher average fare per ride ($34.62) than urban cities ($24.53), the urban cities consistently outpaced the rural and suburban cities on total fares on a weekly basis as seen in Figure 1. One recommendation is to investigate the potential spike in fares in late February as well as the upward trend for suburban city types in late April. There may have been some factors that can be leveraged to help increase fares. Another recommendation is to analyze the trend lines across the rest of the year. Widening the scope of that analysis will help inform trends throughout summer, fall and the holiday periods of winter. A third recommendation is to investigate driver supply and demand in each city type. If it is discovered that more drivers are needed in rural or suburban cities, there may be opportunities to advertise and recruit. 
